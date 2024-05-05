@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className=" px-5 mt-6">
     <p className="font-bold mb-2">Complaint</p>
-       <div className="main p-4  shadow-md">
+       <div className="main p-4  shadow-md ring ring-gray-50 ring-offset-2">
        <p className='text-sm mb-2 mt-[-7px]'>Transaction</p>
 <div class="max-w-2xl mx-auto">
 

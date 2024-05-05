@@ -1,12 +1,18 @@
 import Image from "next/image";
 import "./globals.css";
+import { MdOutlineHorizontalRule } from "react-icons/md";
 
 export default function Home() {
   return (
     <div className=" px-5 mt-6">
     <p className="font-bold mb-2">Complaint</p>
        <div className="main p-4  shadow-md ring ring-gray-50 ring-offset-2">
-       <p className='text-sm mb-2 mt-[-7px]'>Transaction</p>
+       <div className="flex items-center justify-between">
+          <div className='text-sm mb-2 mt-[-7px]'>Transaction</div>
+          <div className="text-xl"><MdOutlineHorizontalRule/></div>
+       </div>
+      
+
 <div class="max-w-2xl mx-auto">
 
 <label for="countries" class="block text-sm  text-gray-400 dark:text-gray-400">Nature of transaction</label>

@@ -7,8 +7,8 @@ export default function Home() {
        <div className="main ">
 <div class="max-w-2xl mx-auto">
 
-<label for="countries" class="block text-sm font-medium text-gray-900 dark:text-gray-400">Nature of transaction</label>
-      <select id="countries" class=" border-b text-sm    block w-full p-2.5   dark:placeholder-gray-400 dark:text-black ">
+<label for="countries" class="block text-sm  text-gray-400 dark:text-gray-400">Nature of transaction</label>
+      <select id="countries" class=" border-b bg-transparent text-sm    block w-full p-2.5   dark:placeholder-gray-400 dark:text-black ">
       <option selected>Select Nature of transaction</option>
       <option value="US">Person to person</option>
       <option value="CA">Person to merchent</option>

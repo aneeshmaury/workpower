@@ -15,7 +15,7 @@ export default function Home() {
 
 <div class="max-w-2xl mx-auto">
 
-<label for="countries" class="block text-[12.04px]  text-blue-400 dark:text-blue-400">Nature of transaction</label>
+<label for="countries" class="block text-[12.04px]  text-[#27357e]">Nature of transaction</label>
       <select id="countries" class=" border-b bg-transparent text-[14px]    block w-full py-1   dark:placeholder-gray-400 dark:text-black ">
       <option selected>Select Nature of transaction</option>
       <option value="US">Person to person</option>

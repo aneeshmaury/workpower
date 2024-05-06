@@ -15,7 +15,7 @@ export default function Home() {
 
 <div class="max-w-2xl mx-auto">
 
-<label for="countries" class="block text-[12.04px]  text-[#27357e]">Nature of transaction</label>
+<label for="countries" class="block text-[14px]  text-[#27357e]">Nature of transaction</label>
       <select id="countries" class=" border-b bg-transparent text-[14px]    block w-full py-1   dark:placeholder-gray-400 dark:text-black ">
       <option selected>Select Nature of transaction</option>
       <option value="US">Person to person</option>
@@ -23,7 +23,7 @@ export default function Home() {
      
   </select>
 
-<p class=" text-[12.04px] text-[#313131] italic">Please select the issue from drop down list
+<p class=" text-[14px] text-[#313131] italic">Please select the issue from drop down list
   
 </p>
 

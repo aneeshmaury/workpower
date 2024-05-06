@@ -6,11 +6,11 @@ export default function Home() {
   return (
     <div className=" px-[15px] mt-6">
     <p className="font-bold text-[17.5px] mb-2">Complaint</p>
-       <div className="main p-4  shadow-md ring ring-gray-50 ring-offset-2">
+       <div className="main px-[15px] mt-4  shadow-md">
        <div className="flex items-center justify-between">
-          <div className='text-sm mb-2 mt-[-7px]'>Transaction</div>
-          <div className="text-xl"><MdOutlineHorizontalRule/></div>
-       </div>
+    <div className='text-sm mr-4'>Transaction</div>
+    <div className="text-xl"><MdOutlineHorizontalRule/></div>
+</div>
       
 
 <div class="max-w-2xl mx-auto">

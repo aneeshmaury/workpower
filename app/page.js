@@ -4,8 +4,8 @@ import { MdOutlineHorizontalRule } from "react-icons/md";
 
 export default function Home() {
   return (
-    <div className=" px-5 mt-6">
-    <p className="font-bold mb-2">Complaint</p>
+    <div className=" px-[15px] mt-6">
+    <p className="font-bold text-[17.5px] mb-2">Complaint</p>
        <div className="main p-4  shadow-md ring ring-gray-50 ring-offset-2">
        <div className="flex items-center justify-between">
           <div className='text-sm mb-2 mt-[-7px]'>Transaction</div>
@@ -15,15 +15,15 @@ export default function Home() {
 
 <div class="max-w-2xl mx-auto">
 
-<label for="countries" class="block text-sm  text-gray-400 dark:text-gray-400">Nature of transaction</label>
-      <select id="countries" class=" border-b bg-transparent text-sm    block w-full py-1   dark:placeholder-gray-400 dark:text-black ">
+<label for="countries" class="block text-[12.04px]  text-gray-400 dark:text-gray-400">Nature of transaction</label>
+      <select id="countries" class=" border-b bg-transparent text-[14px]    block w-full py-1   dark:placeholder-gray-400 dark:text-black ">
       <option selected>Select Nature of transaction</option>
       <option value="US">Person to person</option>
       <option value="CA">Person to merchent</option>
      
   </select>
 
-<p class=" text-[10px] italic">Please select the issue from drop down list
+<p class=" text-[12.04px] italic">Please select the issue from drop down list
   
 </p>
 

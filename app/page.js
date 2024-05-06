@@ -158,7 +158,7 @@ export default function Home() {
      
       <div id="countries" class=" border-b bg-transparent text-[15px] tracking-wide   block w-full py-1   dark:placeholder-gray-400 dark:text-black ">
     <div className='flex items-center gap-3'>
-<div className='bg-zinc-100 p-2'>Choose file</div>
+<div className='bg-zinc-100 px-2 py-1 border rounded-sm'>Choose file</div>
 <div>Bank statement.jpg</div>
     </div>
 

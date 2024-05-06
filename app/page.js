@@ -16,7 +16,7 @@ export default function Home() {
 <div class="max-w-2xl mx-auto">
 
 <label for="countries" class="block text-[14px] tracking-wide text-[#27357e]">Nature of transaction</label>
-      <select id="countries" class=" border-b bg-transparent text-[14px] tracking-wide   block w-full py-1   dark:placeholder-gray-400 dark:text-black ">
+      <select id="countries" class=" border-b bg-transparent text-[16px] tracking-wide   block w-full py-1   dark:placeholder-gray-400 dark:text-black ">
       <option selected>Select Nature of transaction</option>
       <option value="US">Person to person</option>
       <option value="CA">Person to merchent</option>

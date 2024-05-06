@@ -7,10 +7,10 @@ export default function Home() {
     <div className=" px-[15px] mt-6">
     <p className="font-bold text-[17.5px] mb-2">Complaint</p>
        <div className="main px-[15px] py-[15px] mt-4  custom-shadow">
-       <div className="flex items-center justify-between">
-    <div className='text-sm mr-4'>Transaction</div>
-    <div className="text-xl"><MdOutlineHorizontalRule/></div>
-</div>
+     <div className="flex justify-between">
+      <div className=''>Transaction</div>
+      <div className='text-2xl mt-2'><MdOutlineHorizontalRule/></div>
+     </div>
       
 
 <div class="max-w-2xl mx-auto">

@@ -17,7 +17,7 @@ export default function Home() {
 
 <label for="countries" class="block text-[14px] tracking-wide text-[#27357e]">Nature of transaction</label>
       <select id="countries" class=" border-b bg-transparent text-[15px] tracking-wide   block w-full py-1   dark:placeholder-gray-400 dark:text-black ">
-      <option selected>Select Nature of transaction</option>
+      <option selected>--Select Nature of transaction--</option>
       <option value="US">Person to person</option>
       <option value="CA">Person to merchent</option>
      

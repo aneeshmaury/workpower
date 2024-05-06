@@ -29,6 +29,24 @@ export default function Home() {
 
 </div>
 
+<div class="max-w-2xl mx-auto mt-4">
+
+<label for="countries" class="block text-[14px] tracking-wide text-[#27357e]">issue</label>
+      <select id="countries" class=" border-b bg-transparent text-[15px] tracking-wide   block w-full py-1   dark:placeholder-gray-400 dark:text-black ">
+      <option selected>--Select issue Type--</option>
+      <option value="US">Person to person</option>
+      <option value="CA">Person to merchent</option>
+     
+  </select>
+
+<p class=" text-[14px] text-[#313131] italic tracking-wide">Please select the issue from drop down list
+  
+</p>
+
+</div>
+
+
+
 
     </div>
     </div>

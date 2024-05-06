@@ -23,7 +23,7 @@ export default function Home() {
      
   </select>
 
-<p class=" text-[12.04px] italic">Please select the issue from drop down list
+<p class=" text-[12.04px] text-[#313131] italic">Please select the issue from drop down list
   
 </p>
 

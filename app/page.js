@@ -82,7 +82,7 @@ export default function Home() {
      
   </div>
 
-<p class=" text-[14px] text-[#313131] italic tracking-wide">Please enter your transaction reference number. It starts with 1, 7, 8, 9 or 0
+<p class=" text-[14px] text-[#313131] italic tracking-wide">Please select the issue from drop down list
   
 </p>
 

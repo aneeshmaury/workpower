@@ -1,6 +1,8 @@
 import Image from "next/image";
 import "./globals.css";
 import { MdOutlineHorizontalRule } from "react-icons/md";
+import { IoIosArrowDown } from "react-icons/io";
+
 
 export default function Home() {
   return (
@@ -71,19 +73,19 @@ export default function Home() {
 
 </div>
 
-<div class="max-w-2xl mx-auto">
+<div class="max-w-2xl mx-auto mt-4">
 
 <label for="countries" class="block text-[14px] tracking-wide text-[#27357e]">Bank Name</label>
-      <select id="countries" class=" border-b bg-transparent text-[15px] tracking-wide   block w-full py-1   dark:placeholder-gray-400 dark:text-black ">
-      <option selected>--Select Bank Name--</option>
-      <option value="US">AU Small Finance Bank</option>
-      <option value="CA">Person to merchent</option>
+      <div id="countries" class=" flex justify-between border-b bg-transparent text-[15px] tracking-wide w-full py-1   dark:placeholder-gray-400 dark:text-black ">
+     <input/>
+<IoIosArrowDown/>
      
-  </select>
+  </div>
 
-<p class=" text-[14px] text-[#313131] italic tracking-wide">Please select the issue from drop down list
+<p class=" text-[14px] text-[#313131] italic tracking-wide">Please enter your transaction reference number. It starts with 1, 7, 8, 9 or 0
   
 </p>
+
 </div>
 <div class="max-w-2xl mx-auto mt-4">
 
@@ -166,7 +168,7 @@ export default function Home() {
      
   </div>
 
-<p class=" text-[14px] text-[#313131] italic tracking-wide">Please enter your 10 digit mobile number. Do not prefix with +91 or 0
+<p class=" text-[14px] text-[#313131] italic tracking-wide">Files must be less than 2 MB. Allowed file types: jpg, jpeg, png, pdf.
   
 </p>
 

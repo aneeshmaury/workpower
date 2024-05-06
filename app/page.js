@@ -44,6 +44,19 @@ export default function Home() {
 </p>
 
 </div>
+<div class="max-w-2xl mx-auto mt-4">
+
+<label for="countries" class="block text-[14px] tracking-wide text-[#27357e]">Comment</label>
+      <select id="countries" class=" border-b bg-transparent text-[15px] tracking-wide   block w-full py-1   dark:placeholder-gray-400 dark:text-black ">
+     <input/>
+     
+  </select>
+
+<p class=" text-[14px] text-[#313131] italic tracking-wide">Provide brief about your issue. Not greater than 500 characters
+  
+</p>
+
+</div>
 
 
 
